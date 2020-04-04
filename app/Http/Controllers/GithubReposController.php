@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Exception;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -46,9 +45,7 @@ class GithubReposController extends Controller
             // throws an exception on client 4xx or server 5xx errors
             $response->throw();
         } catch (RequestException $e) {
-            return response('Client or Server Error encountered', $response->status());
-        } catch (Exception $e) {
-            return response('Unknown Error', 501);
+            return response(['error' => 'Client or Server Error encountered'], $response->status());
         }
         
         return response($this->formatResponse($response));;

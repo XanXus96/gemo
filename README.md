@@ -7,7 +7,7 @@ My submission to the backend coding challenge proposed by Gemography
 * locally:
     - php >= 7.2.5
     - composer
-<br />
+
 * on container:
     - make
     - docker
@@ -17,7 +17,6 @@ My submission to the backend coding challenge proposed by Gemography
 
 * locally:
      `composer install`
-<br />
 
 * on container:
      `make install`
@@ -26,7 +25,6 @@ My submission to the backend coding challenge proposed by Gemography
 
 * locally:
      `php artisan serve`
-<br />
 
 * on container:
      `make run`
@@ -35,7 +33,6 @@ My submission to the backend coding challenge proposed by Gemography
 
 * locally:
     Ctrl+c
-<br />
 
 * on container:
      `make stop`

@@ -72,7 +72,7 @@ class GithubReposController extends Controller
             $result[$key] = ['total' => count($val), 'items' => $val ];
         }
 
-        return $result;
+        return ['total' => count($result), 'items' => $result];
     }
 
 }

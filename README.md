@@ -116,9 +116,9 @@ My submission to the backend coding challenge proposed by Gemography
 * **Sample Call:**
 
   ```bash
-  curl --location --request GET 'http://localhost:8080/api/top'
+  curl --location --request GET 'http://localhost:8000/api/top'
 
-  curl --location --request GET 'http://localhost:8080/api/top?date=2020-01-01T00:00:00Z'
+  curl --location --request GET 'http://localhost:8000/api/top?date=2020-01-01T00:00:00Z'
   ```
 
 <!-- * **Notes:**

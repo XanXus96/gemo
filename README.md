@@ -9,6 +9,7 @@ My submission to the backend coding challenge proposed by Gemography
     - composer
 <br />
 * on container:
+
     - make
     - docker
     - docker-compose
@@ -19,6 +20,7 @@ My submission to the backend coding challenge proposed by Gemography
     - composer install
 <br />
 * on container:
+
     - make install
 
 ## Run the app
@@ -27,6 +29,7 @@ My submission to the backend coding challenge proposed by Gemography
     - php artisan serve
 <br />
 * on container:
+
     - make run
 
 ## Stop the app
@@ -35,6 +38,7 @@ My submission to the backend coding challenge proposed by Gemography
     - Ctrl+c
 <br />
 * on container:
+
     - make stop
 
 ## ENDPOINTS

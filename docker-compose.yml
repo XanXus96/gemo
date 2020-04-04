@@ -14,7 +14,7 @@ services:
         container_name: gemo.nginx
         image: nginx:latest
         ports:
-            - "8080:80"
+            - "8000:80"
         volumes:
             - .:/var/www/html
             - ./default.conf:/etc/nginx/conf.d/default.conf

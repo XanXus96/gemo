@@ -16,27 +16,29 @@ My submission to the backend coding challenge proposed by Gemography
 ## Install the app
 
 * locally:
-    `composer install`
+     `composer install`
 <br />
 
 * on container:
-    `make install`
+     `make install`
 
 ## Run the app
 
 * locally:
-    `php artisan serve`
+     `php artisan serve`
 <br />
+
 * on container:
-    `make run`
+     `make run`
 
 ## Stop the app
 
 * locally:
     Ctrl+c
 <br />
+
 * on container:
-    `make stop`
+     `make stop`
 
 ## ENDPOINTS
 

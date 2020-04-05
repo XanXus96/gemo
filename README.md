@@ -97,7 +97,7 @@ My submission to the backend coding challenge proposed by Gemography
  
 * **Error Response:**
 
-  * **Code:** 422 UNPROCESSABLE ENTRY
+  * **Code:** 422 UNPROCESSABLE ENTRY <br />
     **Content:** 
     ```json
     {
@@ -110,7 +110,7 @@ My submission to the backend coding challenge proposed by Gemography
 
   OR
 
-  * **Code:** 4xx CLIENT ERROR or 5xx SERVER ERROR
+  * **Code:** 4xx CLIENT ERROR or 5xx SERVER ERROR <br />
     **Content:** 
     ```json
     { "error" : "Client or Server Error encountered" }

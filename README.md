@@ -41,7 +41,7 @@ My submission to the backend coding challenge proposed by Gemography
 
 **List of the languages used by the 100 trending public repos on GitHub**
 ----
-  This endpoint lists the languages used by the 100 trending public repos on GitHub.
+  This endpoint lists the languages used by the 100 trending public repos on GitHub on the last 30 days by default.
   For every language, we have the number of repos using this language and the list of repos using the language
 
 * **URL**
@@ -58,6 +58,7 @@ My submission to the backend coding challenge proposed by Gemography
 
    **Optional:**
  
+    date : date from where the repositories are created after
    `date=[datetime:{format:'Y-m-dTH:i:sZ'}]`
 
 * **Success Response:**

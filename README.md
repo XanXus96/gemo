@@ -59,6 +59,8 @@ My submission to the backend coding challenge proposed by Gemography
    **Optional:**
  
     date : date from where the repositories are created after
+    
+    
    `date=[datetime:{format:'Y-m-dTH:i:sZ'}]`
 
 * **Success Response:**

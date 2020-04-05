@@ -100,7 +100,12 @@ My submission to the backend coding challenge proposed by Gemography
   * **Code:** 422 UNPROCESSABLE ENTRY
     **Content:** 
     ```json
-    { "error" : "Email Invalid" }
+    {
+    "date": [
+            "The date does not match the format Y-m-d\\TH:i:s\\Z.",
+            "The date must be a date before or equal to {current datetime}."
+        ]
+    }
     ```
 
   OR
@@ -108,12 +113,7 @@ My submission to the backend coding challenge proposed by Gemography
   * **Code:** 4xx CLIENT ERROR or 5xx SERVER ERROR
     **Content:** 
     ```json
-    {
-    "date": [
-            "The date does not match the format Y-m-d\\TH:i:s\\Z.",
-            "The date must be a date before or equal to {current datetime}."
-        ]
-    }
+    { "error" : "Client or Server Error encountered" }
     ```
 
 * **Sample Call:**
